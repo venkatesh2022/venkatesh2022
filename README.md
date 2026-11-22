@@ -13,7 +13,7 @@ I build dependable software—from APIs and enterprise integrations to machine-l
 
 ## 👨‍💻 About me
 
-I'm a **Senior Software Engineer at LPL Financial**, previously a **Software Development Engineer I at Amazon**, with 4+ years of professional experience working on backend services, AI-assisted enterprise applications, cloud-connected integrations, and data-driven engineering.
+I'm a **Senior Software Engineer at LPL Financial**, previously a **Software Development Engineer I at Amazon**, with professional experience working on backend services, AI-assisted enterprise applications, cloud-connected integrations, and data-driven engineering.
 
 I enjoy working across the software lifecycle: understanding requirements, designing APIs, connecting existing systems, building and evaluating technical solutions, and thinking about reliability, testing, and maintainability.
 
