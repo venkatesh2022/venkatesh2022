@@ -1,0 +1,19 @@
+{
+  "request_id": "REQ-001",
+  "customer_ref": "DEMO-0042",
+  "requested_by": {
+    "id": "ops-7",
+    "role": "ops"
+  },
+  "action": "release_packet",
+  "evidence": [
+    {
+      "kind": "identity_verification",
+      "verified": true
+    },
+    {
+      "kind": "customer_consent",
+      "verified": true
+    }
+  ]
+}
