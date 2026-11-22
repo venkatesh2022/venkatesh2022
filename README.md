@@ -57,14 +57,6 @@ I built three small, **original reference implementations** to explore how softw
 
 [Browse code, sample inputs and tests →](fde-lab/README.md)
 
-## 💼 Experience
-
-**LPL Financial · Senior Software Engineer** | Nov 2024–Present  
-Enterprise financial-advisor applications, AI-assisted information retrieval, backend integrations, authentication, and security validation.
-
-**Amazon · Software Development Engineer I** | Sep 2022–Oct 2024  
-Smart-vehicle backend services, cloud-connected integrations, and telemetry analysis for vehicle component and power-consumption investigations.
-
 ## 🎯 Areas I enjoy building in
 
 **Backend & platform software · AI-powered products · Machine learning engineering · Data engineering · Cloud applications · Solutions and forward-deployed engineering**
