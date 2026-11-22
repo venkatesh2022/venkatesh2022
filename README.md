@@ -78,14 +78,6 @@ I work at the intersection of backend engineering, data integration, and AI-powe
 - [Orders Analytics Lakehouse](https://github.com/venkatesh2022/databricks-task) — PySpark/SQL medallion architecture and order analytics.
 - [Movie Recommendation Prototype](https://github.com/venkatesh2022/mlrecommendation-app-flask) — Flask and ML experimentation; development work remains.
 
-## Experience
-
-**LPL Financial** · Senior Software Engineer · Nov 2024–Present  
-Enterprise advisor workflows, backend integration, secure session management, and AI-assisted applications.
-
-**Amazon** · Software Development Engineer I · Sep 2022–Oct 2024  
-Cloud-connected smart-vehicle services, backend engineering, and sensor-data analytics.
-
 ## Connect
 
 [Explore my repositories](https://github.com/venkatesh2022?tab=repositories) · [FDE project lab](fde-lab/README.md)
