@@ -1,85 +1,80 @@
 <div align="center">
 
-# Venkatesh Thota
-### Forward Deployed Engineering · Software Engineering · Applied AI
+# Hi, I'm Venkatesh Thota 👋
 
-**From ambiguous customer problems to software people can actually operate.**
+### Software Engineer | Backend Systems · Applied AI/ML · Cloud & Data Engineering
 
-I work at the intersection of backend engineering, data integration, and AI-powered applications. I enjoy translating real operational problems into reliable systems, useful workflows, and clear handoffs.
+I build dependable software—from APIs and enterprise integrations to machine-learning applications and cloud-connected systems.
 
-[![FDE Portfolio](https://img.shields.io/badge/Explore-FDE%20Project%20Lab-2563EB)](fde-lab/README.md)
-[![GitHub](https://img.shields.io/badge/GitHub-venkatesh2022-181717?logo=github&logoColor=white)](https://github.com/venkatesh2022?tab=repositories)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkatesh-thota/)
+[![GitHub](https://img.shields.io/badge/GitHub-Explore%20Projects-181717?logo=github&logoColor=white)](https://github.com/venkatesh2022?tab=repositories)
 
 </div>
 
-## What I bring to a customer deployment
+## 👨‍💻 About me
 
-- **Business-to-engineering translation:** unpack workflow bottlenecks, map stakeholders, define acceptance criteria, and build a useful first vertical slice.
-- **Systems integration:** connect APIs, events, identity boundaries, and messy enterprise data with explicit contracts and failure handling.
-- **Safe automation:** design review gates, role checks, auditability, deterministic fallbacks, and clear escalation paths before adding AI.
-- **Operational ownership:** think beyond the demo—tests, observability, runbooks, rollback plans, and maintainable handoff documentation.
+I'm a **Senior Software Engineer at LPL Financial**, previously a **Software Development Engineer I at Amazon**, with 4+ years of professional experience working on backend services, AI-assisted enterprise applications, cloud-connected integrations, and data-driven engineering.
 
-**Background:** Senior Software Engineer at **LPL Financial**, previously Software Development Engineer I at **Amazon**, working with enterprise applications, AI-assisted workflows, authentication, smart-vehicle services, and telemetry analytics.
+I enjoy working across the software lifecycle: understanding requirements, designing APIs, connecting existing systems, building and evaluating technical solutions, and thinking about reliability, testing, and maintainability.
 
-## Three FDE project case studies
+My work and interests span three complementary areas:
 
-> These are **original, runnable local reference prototypes with synthetic data**, not client deployments or production systems. Each includes a fictional customer brief, implementation, test suite, architecture, acceptance criteria, and handoff considerations.
+- **Software & backend engineering:** Java, Python, REST APIs, enterprise application integration, authentication and workflow design.
+- **Applied AI & machine learning:** RAG-enabled applications, natural language processing, recommendation systems, model experiments, and practical AI tooling.
+- **Cloud & data systems:** AWS-connected services, SQL, ETL/data pipelines, Databricks, and telemetry/data processing.
 
-### 01 · [AdvisorBridge — Audit-First Workflow Orchestrator](fde-lab/advisorbridge/README.md)
+I also enjoy **customer-facing and forward-deployed engineering problems**: turning ambiguous operational requirements into testable, useful software. That is one dimension of my work—not the only one.
 
-**Customer challenge:** A financial-services operations team needs document-release workflows with evidence verification, separation of duties, and minimal audit data.
+## 🛠️ Technology
 
-**What the prototype demonstrates:** role-policy enforcement, evidence checks, independent approval, request idempotency, reason-coded decisions, and an audit trail without storing customer identities in clear text.
+| Area | Technologies and focus |
+| --- | --- |
+| **Languages** | Java · Python · SQL |
+| **Backend & integration** | REST APIs · FastAPI · Flask · Authentication · Enterprise integrations |
+| **AI & ML** | RAG · LLM applications · NLP · scikit-learn · Pandas · Model evaluation |
+| **Cloud & data** | AWS · Databricks · PySpark · ETL · Data modeling |
+| **Developer tools** | Git · GitHub Actions · Docker · Automated testing |
 
-**Why it matters to FDE:** deploy technology into regulated, approval-heavy workflows without giving an AI assistant unchecked authority.
+## 🚀 Selected projects
 
-[Read case study](fde-lab/advisorbridge/README.md) · [Code](fde-lab/advisorbridge/app.py) · [Tests](fde-lab/advisorbridge/test_app.py)
+A cross-section of **backend, data engineering, machine learning, and applied systems work**. Project links lead to implementation details and honest limitations.
 
-### 02 · [FleetSignal — Telemetry-to-Service Incident Engine](fde-lab/fleetsignal/README.md)
-
-**Customer challenge:** A fleet operator is overwhelmed by duplicate vehicle alerts that aren't connected to service-ticket history.
-
-**What the prototype demonstrates:** multi-source event correlation, threshold reasoning, duplicate suppression, anomaly severity, explainable recommendations, and ticket-awareness.
-
-**Why it matters to FDE:** fit operational software to physical-world workflows rather than ship an isolated dashboard.
-
-[Read case study](fde-lab/fleetsignal/README.md) · [Code](fde-lab/fleetsignal/app.py) · [Tests](fde-lab/fleetsignal/test_app.py)
-
-### 03 · [ContractLens — Vendor Schema Drift & Migration Dry-Run](fde-lab/contractlens/README.md)
-
-**Customer challenge:** A manufacturer needs to onboard mismatched supplier exports without silently losing data or corrupting orders.
-
-**What the prototype demonstrates:** field mapping, schema-drift detection, validation, duplicate checks, record/value reconciliation, and a no-write approval gate.
-
-**Why it matters to FDE:** solve the messy last mile of enterprise integration, where data quality and operator trust are part of the product.
-
-[Read case study](fde-lab/contractlens/README.md) · [Code](fde-lab/contractlens/app.py) · [Tests](fde-lab/contractlens/test_app.py)
-
-## Deployment mindset
-
-| Stage | Question I ask | Engineering artifact |
+| Project | Focus | What you'll find |
 | --- | --- | --- |
-| Discover | What actually blocks the customer's workflow? | Customer brief, constraints, success criteria |
-| Integrate | How do their data and systems really behave? | Mapping contract, adapters, error taxonomy |
-| De-risk | What happens on bad input or an unsafe action? | Policy checks, dry-run, audit, unit tests |
-| Hand off | Can the customer support this after go-live? | Runbook, ownership, monitoring and rollback plan |
+| **[Receipt Rewards API](https://github.com/venkatesh2022/receipt-processor-challenge)** | Backend / APIs | FastAPI endpoints, Pydantic request models, reward-rule logic, Docker setup, and API tests |
+| **[Orders Analytics Lakehouse](https://github.com/venkatesh2022/databricks-task)** | Data engineering | PySpark and SQL workflows, Bronze/Silver/Gold modeling, Delta Lake design, and Databricks orchestration |
+| **[Digital Ad-Fraud Modeling](https://github.com/venkatesh2022/TalkingData-AdTracking-Fraud-Detection-Challenge)** | Applied ML | Exploratory analysis, feature engineering, and classification experiments with boosting methods |
+| **[Movie Recommendation App](https://github.com/venkatesh2022/mlrecommendation-app-flask)** | ML + web applications | Flask, Pandas, similarity-based recommendations, and NMF experiments; prototype with known integration work remaining |
+| **[Applied Systems Engineering Lab](fde-lab/README.md)** | Enterprise workflows / integration | Three tested local Python prototypes with synthetic datasets, decision rules, and engineering case studies |
 
-## Technology
+## 🔬 Applied systems engineering lab
 
-**Backend & integrations:** Java · Python · SQL · REST APIs · FastAPI
+I built three small, **original reference implementations** to explore how software can handle messy real-world workflows. They use synthetic data; they are **not** customer deployments or production integrations.
 
-**AI & analytics:** Retrieval-Augmented Generation (RAG) · LLM application patterns · scikit-learn · Pandas · PySpark
+- **[AdvisorBridge](fde-lab/advisorbridge/README.md)** — Policy-driven approval workflow, evidence checks, and minimized audit records.
+- **[FleetSignal](fde-lab/fleetsignal/README.md)** — Vehicle telemetry correlation, deduplication, explainable incidents, and service context.
+- **[ContractLens](fde-lab/contractlens/README.md)** — Vendor data mapping, schema drift detection, validation, and reconciliation dry-runs.
 
-**Cloud & delivery:** AWS · Docker · GitHub Actions · Databricks · CI/CD concepts
+[Browse code, sample inputs and tests →](fde-lab/README.md)
 
-## More engineering work
+## 💼 Experience
 
-- [Receipt Rewards API](https://github.com/venkatesh2022/receipt-processor-challenge) — FastAPI/Pydantic service, Dockerfile, and endpoint tests.
-- [Orders Analytics Lakehouse](https://github.com/venkatesh2022/databricks-task) — PySpark/SQL medallion architecture and order analytics.
-- [Movie Recommendation Prototype](https://github.com/venkatesh2022/mlrecommendation-app-flask) — Flask and ML experimentation; development work remains.
+**LPL Financial · Senior Software Engineer** | Nov 2024–Present  
+Enterprise financial-advisor applications, AI-assisted information retrieval, backend integrations, authentication, and security validation.
 
-## Connect
+**Amazon · Software Development Engineer I** | Sep 2022–Oct 2024  
+Smart-vehicle backend services, cloud-connected integrations, and telemetry analysis for vehicle component and power-consumption investigations.
 
-[Explore my repositories](https://github.com/venkatesh2022?tab=repositories) · [FDE project lab](fde-lab/README.md)
+## 🎯 Areas I enjoy building in
 
-*The best software doesn't end at a successful demo—it makes the customer's workflow better and remains operable afterward.*
+**Backend & platform software · AI-powered products · Machine learning engineering · Data engineering · Cloud applications · Solutions and forward-deployed engineering**
+
+I value working software, clear documentation, measurable evaluation, and systems that other engineers can maintain.
+
+---
+
+<div align="center">
+
+**Let's connect:** [LinkedIn](https://www.linkedin.com/in/venkatesh-thota/) · [Repositories](https://github.com/venkatesh2022?tab=repositories) · [Applied Systems Lab](fde-lab/README.md)
+
+</div>
