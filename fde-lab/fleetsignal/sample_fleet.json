@@ -1,0 +1,58 @@
+{
+  "assets": [
+    {
+      "vehicle_id": "EV-10",
+      "class": "last-mile-delivery-ev"
+    },
+    {
+      "vehicle_id": "EV-11",
+      "class": "last-mile-delivery-ev"
+    }
+  ],
+  "work_orders": [
+    {
+      "work_order_id": "WO-02",
+      "vehicle_id": "EV-11",
+      "sensor_id": "BAT-1",
+      "status": "open"
+    }
+  ],
+  "limits": {
+    "drain_pct_per_hour": 8,
+    "temperature_c": 65
+  },
+  "telemetry": [
+    {
+      "message_id": "m-1",
+      "vehicle_id": "EV-10",
+      "sensor_id": "BAT-1",
+      "timestamp": "2026-11-22T10:15:00Z",
+      "battery_drain_pct_per_hour": 11.2,
+      "temperature_c": 71
+    },
+    {
+      "message_id": "m-1",
+      "vehicle_id": "EV-10",
+      "sensor_id": "BAT-1",
+      "timestamp": "2026-11-22T10:15:00Z",
+      "battery_drain_pct_per_hour": 11.2,
+      "temperature_c": 71
+    },
+    {
+      "message_id": "m-2",
+      "vehicle_id": "EV-11",
+      "sensor_id": "BAT-1",
+      "timestamp": "2026-11-22T10:17:00Z",
+      "battery_drain_pct_per_hour": 9.4,
+      "temperature_c": 51
+    },
+    {
+      "message_id": "m-3",
+      "vehicle_id": "EV-10",
+      "sensor_id": "BAT-2",
+      "timestamp": "2026-11-22T10:18:00Z",
+      "battery_drain_pct_per_hour": 2,
+      "temperature_c": 45
+    }
+  ]
+}
