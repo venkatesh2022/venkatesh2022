@@ -1,0 +1,34 @@
+name: FDE Prototype Tests
+
+on:
+  push:
+    paths:
+      - "fde-lab/**"
+      - ".github/workflows/fde-lab-tests.yml"
+  pull_request:
+    paths:
+      - "fde-lab/**"
+      - ".github/workflows/fde-lab-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test / ${{ matrix.project }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [advisorbridge, fleetsignal, contractlens]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run standard-library tests
+        working-directory: fde-lab/${{ matrix.project }}
+        run: python -m unittest test_app.py -v
