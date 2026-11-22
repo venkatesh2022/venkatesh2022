@@ -55,11 +55,14 @@ I built three small, **original reference implementations** to explore how softw
 - **[FleetSignal](fde-lab/fleetsignal/README.md)** — Vehicle telemetry correlation, deduplication, explainable incidents, and service context.
 - **[ContractLens](fde-lab/contractlens/README.md)** — Vendor data mapping, schema drift detection, validation, and reconciliation dry-runs.
 
-[Browse code, sample inputs and tests →](fde-lab/README.md)
+## 🏆 Certifications
+
+- **AWS Certified Machine Learning – Specialty** — Amazon Web Services
+- **Databricks Certified Data Engineer Professional** — Databricks
 
 ## 🎯 Areas I enjoy building in
 
-**Backend & platform software · AI-powered products · Machine learning engineering · Data engineering · Cloud applications · Solutions and forward-deployed engineering**
+**Backend & platform software · AI-powered products · Machine learning engineering · Cloud applications · Solutions and forward-deployed engineering . Data engineering**
 
 I value working software, clear documentation, measurable evaluation, and systems that other engineers can maintain.
 
