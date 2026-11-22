@@ -1,0 +1,28 @@
+{
+  "partner_name": "FictionalPartsCo",
+  "field_mapping": {
+    "po": "order_id",
+    "product_code": "sku",
+    "units": "quantity",
+    "amount": "unit_price",
+    "ordered_on": "order_date"
+  },
+  "records": [
+    {
+      "po": "PO-101",
+      "product_code": "MOD-7",
+      "units": "2",
+      "amount": "49.50",
+      "ordered_on": "2026-11-19",
+      "fulfillment_code": "ready"
+    },
+    {
+      "po": "PO-102",
+      "product_code": "MOD-8",
+      "units": "3",
+      "amount": "15.25",
+      "ordered_on": "2026-11-20",
+      "fulfillment_code": "hold"
+    }
+  ]
+}
